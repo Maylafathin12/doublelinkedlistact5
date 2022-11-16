@@ -2,11 +2,20 @@
 
 namespace doublelinkedlistact5
 {
-    class Program
+    class Node
     {
-        static void Main(string[] args)
+        public int rollNumber;
+        public string name;
+        public Node next;
+        public Node prev;
+    }
+
+    class doublelinkedlist
+    {
+        Node START;
+        public doublelinkedlist()
         {
-            Console.WriteLine("Hello World!");
+            START = null;
         }
     }
 }
