@@ -42,7 +42,11 @@ namespace doublelinkedlistact5
                 START = newnode;
                 return;
             }
+            Node previous, current;
+            for (current = previous = START; current != null && rollNo >= current.rollNumber; previous = current, current = current.next)
+            {
 
+            }
         }
     }
 }
