@@ -130,5 +130,26 @@ namespace doublelinkedlistact5
             else
                 return false;
         }
+        static void Main(string[] args)
+        {
+            doublelinkedlist obj = new doublelinkedlist();
+            while (true)
+            {
+                Console.WriteLine("\n Menu" +
+                    "\n 1. Add a record to the list" +
+                    "\n 2. Delete a record from the list" +
+                    "\n 3. View all records in the ascending order of roll numbers" +
+                    "\n 4. View all records in the descending order of roll numbers" +
+                    "\n 5. Search for a record in the list" +
+                    "\n 6. Exit\n" +
+                    "\n Enter your choice (1-6): ");
+                char ch = Convert.ToChar(Console.ReadLine());
+                switch (ch)
+                {
+
+                }
+            }
+
+        }
     }
 }
