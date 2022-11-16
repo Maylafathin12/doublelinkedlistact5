@@ -63,6 +63,11 @@ namespace doublelinkedlistact5
             current.prev = newnode;
             previous.next = newnode;
         }
-
+        public bool Search(int rollNo, ref Node previous, ref Node current)
+        {
+            for (previous = current = START; current != null && rollNo != current.rollNumber; previous = current, current = current.next)
+            { }
+            return (current != null);
+        }
     }
 }
