@@ -12,7 +12,7 @@ namespace doublelinkedlistact5
 
     class doublelinkedlist
     {
-        Node START;
+        Node START; 
         public doublelinkedlist()
         {
             START = null;
